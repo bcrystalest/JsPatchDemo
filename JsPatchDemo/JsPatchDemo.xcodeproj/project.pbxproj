@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F5093E31E764C75007EDBA1 /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5093E21E764C75007EDBA1 /* JSPatchPlatform.framework */; };
 		4F5093E61E764D3D007EDBA1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5093E51E764D3D007EDBA1 /* JavaScriptCore.framework */; };
-		4F5093EB1E765EFC007EDBA1 /* main1.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F5093EA1E765EFC007EDBA1 /* main1.js */; };
-		4F5093ED1E77C09A007EDBA1 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F5093EC1E77C09A007EDBA1 /* main.js */; };
+		4F5093EB1E765EFC007EDBA1 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F5093EA1E765EFC007EDBA1 /* main.js */; };
+		4F5093ED1E77C09A007EDBA1 /* main2.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F5093EC1E77C09A007EDBA1 /* main2.js */; };
 		4FF9ED761E76442F00842E58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9ED751E76442F00842E58 /* main.m */; };
 		4FF9ED791E76442F00842E58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9ED781E76442F00842E58 /* AppDelegate.m */; };
 		4FF9ED7C1E76442F00842E58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9ED7B1E76442F00842E58 /* ViewController.m */; };
@@ -42,8 +42,8 @@
 		4F5093E21E764C75007EDBA1 /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
 		4F5093E51E764D3D007EDBA1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		4F5093E71E764E41007EDBA1 /* JsPatchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JsPatchDemo.entitlements; sourceTree = "<group>"; };
-		4F5093EA1E765EFC007EDBA1 /* main1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main1.js; sourceTree = "<group>"; };
-		4F5093EC1E77C09A007EDBA1 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		4F5093EA1E765EFC007EDBA1 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		4F5093EC1E77C09A007EDBA1 /* main2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main2.js; sourceTree = "<group>"; };
 		4FF9ED711E76442F00842E58 /* JsPatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsPatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF9ED751E76442F00842E58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FF9ED771E76442F00842E58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 				4FF9ED781E76442F00842E58 /* AppDelegate.m */,
 				4FF9ED7A1E76442F00842E58 /* ViewController.h */,
 				4FF9ED7B1E76442F00842E58 /* ViewController.m */,
-				4F5093EA1E765EFC007EDBA1 /* main1.js */,
-				4F5093EC1E77C09A007EDBA1 /* main.js */,
+				4F5093EA1E765EFC007EDBA1 /* main.js */,
+				4F5093EC1E77C09A007EDBA1 /* main2.js */,
 				4FF9ED7D1E76442F00842E58 /* Main.storyboard */,
 				4FF9ED801E76442F00842E58 /* Assets.xcassets */,
 				4FF9ED821E76442F00842E58 /* LaunchScreen.storyboard */,
@@ -281,8 +281,8 @@
 				4FF9ED841E76442F00842E58 /* LaunchScreen.storyboard in Resources */,
 				4FF9ED811E76442F00842E58 /* Assets.xcassets in Resources */,
 				4FF9ED7F1E76442F00842E58 /* Main.storyboard in Resources */,
-				4F5093EB1E765EFC007EDBA1 /* main1.js in Resources */,
-				4F5093ED1E77C09A007EDBA1 /* main.js in Resources */,
+				4F5093EB1E765EFC007EDBA1 /* main.js in Resources */,
+				4F5093ED1E77C09A007EDBA1 /* main2.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

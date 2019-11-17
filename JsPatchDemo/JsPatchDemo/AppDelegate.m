@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
 //    [JSPatch startWithAppKey:@"eccde22fe3269823"];
 //    [JSPatch sync];
-    [JSPatch testScriptInBundle];
+ //   [JSPatch testScriptInBundle];
     return YES;
 }
 

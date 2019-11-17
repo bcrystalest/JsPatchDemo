@@ -57,13 +57,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (self.dataArray.count > indexPath.row) {
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示"message:self.dataArray[indexPath.row] preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:self.dataArray[indexPath.row] preferredStyle:UIAlertControllerStyleAlert];
         
         UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消"style:UIAlertActionStyleCancel handler:nil];
         
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"好的"style:UIAlertActionStyleDefault handler:nil];
         
         [alert addAction:cancelAction];
+        [alert addAction:okAction];
         [alert addAction:okAction];
         [self presentViewController:alert animated:YES completion:nil];
     }
